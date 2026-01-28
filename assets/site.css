@@ -63,7 +63,7 @@ strong, b { font-weight: var(--strong-weight); }
   transition: transform 120ms ease, opacity 120ms ease;
 }
 .x-link:hover {
-  transform: scale(1.05);
+  transform: scale(1.10);
   opacity: 0.92;
 }
 
