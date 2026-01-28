@@ -112,3 +112,36 @@ details.meta[open] summary::before {
 
 details.meta p { margin: 10px 0 0 0; }
 details.meta dl { margin: 10px 0 0 0; }
+
+details.meta {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+details.meta summary {
+  cursor: pointer;
+  font-weight: var(--heading-weight);
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+details.meta summary::-webkit-details-marker { display: none; }
+
+/* Disclosure glyph */
+details.meta summary::before { content: "▸"; }
+details.meta[open] summary::before { content: "▾"; }
+
+/* Indent metadata so it starts under the “M” of Métadonnées */
+details.meta .meta-body {
+  padding-left: calc(1ch + 16px); /* aligns with summary text after the arrow+gap */
+  margin-top: 10px;
+}
+
+details.meta .meta-body p { margin: 0 0 10px 0; }
+
+details.meta dl { margin: 0; }
+details.meta dt { font-weight: var(--heading-weight); margin-top: 10px; }
+details.meta dd { margin: 4px 0 0 0; }
