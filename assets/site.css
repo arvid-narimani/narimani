@@ -25,11 +25,13 @@ body {
   line-height: 1.55;
 }
 
-/* Links: no underline; use subtle size change on hover */
+/* Links: no underline; hover signal */
 a {
   color: var(--link);
   text-decoration: none;
+  transition: opacity 120ms ease;
 }
+a:hover { opacity: 0.92; }
 
 h1, h2, h3 { font-weight: var(--heading-weight); }
 strong, b { font-weight: var(--strong-weight); }
@@ -49,7 +51,6 @@ strong, b { font-weight: var(--strong-weight); }
   display: inline-block; /* needed for transform */
   transition: transform 120ms ease, opacity 120ms ease;
 }
-
 .home-link:hover {
   transform: scale(1.03);
   opacity: 0.92;
@@ -61,7 +62,6 @@ strong, b { font-weight: var(--strong-weight); }
   align-items: center;
   transition: transform 120ms ease, opacity 120ms ease;
 }
-
 .x-link:hover {
   transform: scale(1.05);
   opacity: 0.92;
@@ -71,7 +71,6 @@ strong, b { font-weight: var(--strong-weight); }
 .x-logo {
   width: 1.1em;
   height: 1.1em;
-  display: inline-block;
-  vertical-align: -0.12em;
+  display: block;          /* avoids baseline quirks */
   object-fit: contain;
 }
