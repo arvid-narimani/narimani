@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/assets/site.css">
+
+  <!-- Google Scholar / Highwire-style meta tags -->
+  <meta name="citation_title" content="La diversité des religions dans la perspective de l'Islam
+Authors/Creators" />
+  <meta name="citation_author" content="Arvid Narimani" />
+  <meta name="citation_publication_date" content="REPLACE_WITH_2022/10/09" />
+
+  <!-- DOI (Zenodo) -->
+  <!-- If a concept DOI exists, put it here; otherwise keep the version DOI. -->
+  <meta name="citation_doi" content="10.5281/zenodo.17009367" />
+  <meta name="citation_abstract_html_url" content="https://doi.org/10.5281/zenodo.17009367" />
+
+  <!-- Full-text PDF URL (used by some indexers).
+       Preferred: Zenodo file URL (version-specific).
+       Fallback used here: Google Drive direct download URL (public sharing required). -->
+  <meta name="citation_pdf_url" content="https://drive.google.com/uc?export=download&id=1WIZXM9FYTbZraMsDl03kuh29wYevVofn" />
+
+  <!-- Version label (as shown on Zenodo, e.g., v1, v2) -->
+  <meta name="citation_version" content="REPLACE_WITH_vN" />
+
+  <title>REPLACE_WITH_ZENODO_TITLE — Arvid Narimani</title>
+</head>
+
+<body>
+  <header>
+    <h1>REPLACE_WITH_ZENODO_TITLE</h1>
+
+    <details class="meta">
+      <summary>Métadonnées</summary>
+
+      <div class="meta-body">
+        <p>Arvid Narimani (REPLACE_WITH_YEAR)</p>
+        <p>ORCID :</p>
+        <p><a href="https://orcid.org/0009-0001-1001-4065">https://orcid.org/0009-0001-1001-4065</a></p>
+
+        <p>Zenodo :</p>
+        <p><a href="https://zenodo.org/records/17009367">https://zenodo.org/records/17009367</a></p>
+
+        <p>DOI :</p>
+        <p><a href="https://doi.org/10.5281/zenodo.17009367">https://doi.org/10.5281/zenodo.17009367</a></p>
+
+        <p>Version :</p>
+        <p>REPLACE_WITH_vN</p>
+
+        <p>Licence :</p>
+        <p>REPLACE_WITH_LICENSE (e.g., CC BY 4.0)</p>
+      </div>
+    </details>
+  </header>
+
+  <section>
+    <h2>Résumé (FR)</h2>
+    <p>
+      Ce devoir examine la diversité religieuse « dans la perspective de l’islam » en distinguant, d’une part, l’approche théorique (textes normatifs et droit sacré) et, d’autre part, l’approche empirique (situations observables dans des pays à majorité musulmane). L’analyse commence par une clarification conceptuelle : la « diversité » est comprise moins comme simple multiplicité des religions que comme question de relation à l’altérité, étroitement liée aux notions de tolérance et de pluralisme. Le terme « islam » est ensuite problématisé comme réalité historiquement plurielle (Coran, sunna, pratiques, écoles, périodes et espaces), ce qui conditionne toute généralisation. Le travail met en lumière l’origine occidentale moderne du concept politique de tolérance, tout en montrant que, dans les sociétés islamiques classiques, le rapport à l’autre relève prioritairement du fiqh plutôt que d’une théologie systématique. Dans ce cadre, le statut des non-musulmans protégés (ḏimmah) est présenté comme un compromis juridique : protection des personnes et des biens contre paiement et restrictions, avec autonomie interne partielle. Une lecture de données comparatives (notamment sur religion d’État et diversité religieuse) souligne que de nombreux pays à majorité musulmane combinent faible diversité et forte implication étatique, sans que cela suffise à isoler l’islam comme cause unique. Enfin, l’étude textuelle conclut à une ambivalence coranique envers les autres religions : reconnaissance d’une continuité abrahamique et de certaines possibilités de salut, mais aussi exclusivisme doctrinal et passages prescriptifs plus durs, ouvrant la voie à des interprétations opposées et à des usages politiques divergents.
+    </p>
+  </section>
+
+  <section>
+    <h2>Abstract (EN)</h2>
+    <p>
+      This paper examines religious diversity from the perspective of Islam by distinguishing between a theoretical approach (normative texts and sacred law) and an empirical approach (observable situations in Muslim-majority societies). The analysis begins with a conceptual clarification: “diversity” is understood not merely as the coexistence of multiple religions, but as a question of relations with religious otherness, closely connected to the notions of tolerance and pluralism. The term “Islam” is then problematized as a historically plural reality—encompassing the Qur’an, the sunna, social practices, legal schools, periods, and regions—thereby limiting any essentialist generalization. The study highlights the modern Western origin of tolerance as a political concept, while showing that, in classical Islamic societies, relations with non-Muslims were regulated primarily through jurisprudence (fiqh) rather than systematic theology. Within this legal framework, the status of protected non-Muslims (dhimma) is presented as a juridical compromise, combining protection of life and property with fiscal obligations and legal restrictions, alongside partial communal autonomy. An examination of comparative data on state religion and religious diversity indicates that many Muslim-majority countries display low levels of religious diversity alongside strong state involvement in religion, without allowing Islam to be isolated as a single causal factor. Finally, a textual analysis concludes that the Qur’anic discourse on other religions is ambivalent: it affirms a degree of Abrahamic continuity and acknowledges limited possibilities of salvation, while simultaneously asserting doctrinal exclusivism and containing prescriptive passages that may justify more restrictive interpretations. This ambivalence enables divergent readings and political uses of Islamic sources.
+    </p>
+  </section>
+
+  <section>
+    <h2>Référence bibliographique</h2>
+    <p>
+      Narimani, Arvid (REPLACE_WITH_YEAR). <em>REPLACE_WITH_ZENODO_TITLE</em>. Zenodo (REPLACE_WITH_vN).
+      <a href="https://doi.org/10.5281/zenodo.17009367">https://doi.org/10.5281/zenodo.17009367</a>.
+    </p>
+  </section>
+
+  <hr class="divider" />
+
+  <section>
+    <h2>Texte intégral (PDF)</h2>
+    <iframe
+      src="https://drive.google.com/file/d/1WIZXM9FYTbZraMsDl03kuh29wYevVofn/preview"
+      width="100%"
+      height="900"
+      style="border: 1px solid rgba(17,24,39,0.18); border-radius: 8px;"
+      allow="autoplay"
+      title="PDF (Google Drive)">
+    </iframe>
+  </section>
+</body>
+</html>
