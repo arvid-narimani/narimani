@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/assets/site.css">
+
+  <!-- Google Scholar / Highwire-style meta tags -->
+  <meta name="citation_title" content="Building a Reproducible Mining Pipeline for the Scandinavian Runic-text Database (SRD) via Runor (RAÄ) and the SRD REST API" />
+  <meta name="citation_author" content="Arvid Narimani" />
+  <meta name="citation_publication_date" content="2025/12/23" />
+
+  <!-- DOI (this version; v1) -->
+  <meta name="citation_doi" content="10.5281/zenodo.18037067" />
+  <meta name="citation_abstract_html_url" content="https://doi.org/10.5281/zenodo.18037067" />
+
+  <!-- Version-specific PDF (v1, Zenodo) -->
+  <meta name="citation_pdf_url" content="https://zenodo.org/records/18037067/files/mining_pipeline_SRD.pdf?download=1" />
+  <meta name="citation_version" content="v1" />
+
+  <title>Building a Reproducible Mining Pipeline for the Scandinavian Runic-text Database (SRD) via Runor (RAÄ) and the SRD REST API — Arvid Narimani</title>
+</head>
+
+<body>
+  <header>
+    <h1>Building a Reproducible Mining Pipeline for the Scandinavian Runic-text Database (SRD) via Runor (RAÄ) and the SRD REST API</h1>
+
+    <details class="meta">
+      <summary>Métadonnées</summary>
+
+      <div class="meta-body">
+        <p>Arvid Narimani (2025)</p>
+        <p>ORCID : <a href="https://orcid.org/0009-0001-1001-4065">https://orcid.org/0009-0001-1001-4065</a></p>
+        <p>Dernière version : <a href="https://doi.org/10.5281/zenodo.18037067">https://doi.org/10.5281/zenodo.18037067</a></p>
+        <p>Version citée : v1 — <a href="https://doi.org/10.5281/zenodo.18037067">https://doi.org/10.5281/zenodo.18037067</a></p>
+        <p>Licence : CC BY 4.0</p>
+      </div>
+    </details>
+  </header>
+
+  <section>
+    <h2>Résumé (FR)</h2>
+    <p>
+      Ce rapport méthodologique décrit la construction et la validation d’un flux de travail reproductible, piloté par API, pour extraire des attestations d’un complexe lexical centré sur <em>óðal</em> (et variantes historiques) dans la Scandinavian Runic-text Database (SRD), via l’interface Runor (RAÄ) et un service REST « éditionné ». L’approche privilégie l’accès par API plutôt que le scraping, afin de garantir des identifiants stables, un paramétrage explicite des éditions et des résultats auditables. Le protocole résout l’édition active (<code>GET /editions</code>), énumère les identifiants d’inscriptions (<code>GET /signa</code>), récupère les notices (<code>GET /inscriptions/{uuid}?edition_id=…</code>) et effectue la recherche lexicale sur la couche textuelle pertinente (<code>runic_texts[*].interpretations[*].text</code>). Le rapport documente aussi des contraintes importantes (paramètre d’édition obligatoire, écarts spécification/comportement, limites de <code>GET /search</code>) et présente une exécution de validation qui retrouve des attestations canoniques en conservant une provenance explicite (UUID, édition, couche d’extraction).
+    </p>
+  </section>
+
+  <section>
+    <h2>Abstract (EN)</h2>
+    <p>
+      This methodological report documents the construction and validation of a reproducible, API-driven workflow for mining the Scandinavian Runic-text Database (SRD), accessed via Runor (RAÄ), for a defined lexical complex centered on <em>óðal</em> and historically variable related forms. The approach motivates an API-first strategy over browser scraping in order to preserve stable identifiers, explicit editioning, structured fields, and auditable outputs. The workflow resolves the active SRD edition (<code>GET /editions</code>), enumerates inscription UUIDs (<code>GET /signa</code>), retrieves inscription records (<code>GET /inscriptions/{uuid}?edition_id=…</code>), and performs local lexical matching on <code>runic_texts[*].interpretations[*].text</code>. The report records reproducibility-relevant behaviors (mandatory edition parameters, specification/behavior mismatches, and the limits of <code>GET /search</code>) and includes a controlled validation run that rediscovers canonical attestations while preserving explicit provenance (UUIDs, edition context, and extraction layer). This deposit provides documentation only (PDF) and does not redistribute SRD/Runor source data.
+    </p>
+  </section>
+
+  <section>
+    <h2>Référence bibliographique</h2>
+    <p>
+      Narimani, Arvid (2025). <em>Building a Reproducible Mining Pipeline for the Scandinavian Runic-text Database (SRD) via Runor (RAÄ) and the SRD REST API</em>. Zenodo (v1).
+      Dernière version : <a href="https://doi.org/10.5281/zenodo.18037067">https://doi.org/10.5281/zenodo.18037067</a>.
+      Version citée : <a href="https://doi.org/10.5281/zenodo.18037067">https://doi.org/10.5281/zenodo.18037067</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Texte intégral (PDF)</h2>
+    <iframe
+      src="https://drive.google.com/file/d/1czyTmpQaEshtaKVpyoSj4eO4_uGZF9c5/preview"
+      width="100%"
+      height="900"
+      style="border: 1px solid rgba(17,24,39,0.18); border-radius: 8px;"
+      allow="autoplay"
+      title="Building a Reproducible Mining Pipeline for the Scandinavian Runic-text Database (SRD) via Runor (RAÄ) and the SRD REST API (PDF)">
+    </iframe>
+  </section>
+</body>
+</html>
