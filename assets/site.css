@@ -35,7 +35,7 @@ body {
   background: var(--bg);
   color: var(--text);
 
-  font-family: "STIX Two Text", serif;
+  font-family: "Merriweather", serif;
   font-weight: var(--text-weight);
   line-height: 1.55;
 
